@@ -1,0 +1,62 @@
+orphan references.
+These are references that are not used by any EPJObjects or fields
+
+WindowShadeControlNames
+SurfacePropUnderWaterNames
+SurfaceLocalEnvironmentNames
+ZoneLocalEnvironmentNames
+AirflowNetworkZoneControlPressureControllerNames
+AFNOutdoorAirFlowNames
+AirflowNetwork LinkageNames
+DOASAirLoops
+PLHPCoolingNames
+PLHPHeatingNames
+CondenserEquipmentLists
+
+/Applications/EnergyPlus-8-9-0/Energy+.schema.epJSON
+----------------------------------------------------
+ZoneLocalEnvironmentNames
+SurfaceLocalEnvironmentNames
+AirflowNetwork LinkageNames
+AirflowNetworkZoneControlPressureControllerNames
+AFNOutdoorAirFlowNames
+SurfacePropUnderWaterNames
+
+/Applications/EnergyPlus-9-0-1/Energy+.schema.epJSON
+----------------------------------------------------
+ZoneLocalEnvironmentNames
+SurfaceLocalEnvironmentNames
+WindowShadeControlNames
+AirflowNetwork LinkageNames
+AirflowNetworkZoneControlPressureControllerNames
+AFNOutdoorAirFlowNames
+SurfacePropUnderWaterNames
+
+/Applications/EnergyPlus-9-5-0/Energy+.schema.epJSON
+----------------------------------------------------
+InternalHeatSourceNames
+WindowShadeControlNames
+SurfacePropUnderWaterNames
+SurfaceLocalEnvironmentNames
+ZoneLocalEnvironmentNames
+AirflowNetworkZoneControlPressureControllerNames
+AFNOutdoorAirFlowNames
+AirflowNetwork LinkageNames
+DOASAirLoops
+PLHPCoolingNames
+PLHPHeatingNames
+CondenserEquipmentLists
+
+
+/Applications/EnergyPlus-9-6-0/Energy+.schema.epJSON
+----------------------------------------------------
+InternalHeatSourceNames
+WindowShadeControlNames
+SurfacePropUnderWaterNames
+SurfaceLocalEnvironmentNames
+ZoneLocalEnvironmentNames
+AirflowNetworkZoneControlPressureControllerNames
+AFNOutdoorAirFlowNames
+AirflowNetwork LinkageNames
+DOASAirLoops
+CondenserEquipmentLists
