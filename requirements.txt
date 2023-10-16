@@ -1,0 +1,8 @@
+bottle
+click
+beaker
+jinja2
+
+
+# relative install
+-e ../eppy3000

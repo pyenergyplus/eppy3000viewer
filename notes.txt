@@ -1,0 +1,59 @@
+
+2023-04-21
+==========
+
+Make this a local git repository
+
+ha ha ... code has already moved to eppy3000
+
+- clean this up and put it in github
+- learn dplyment tactics from the book
+
+2022-01-09
+==========
+
+linking to bigladder documentation is tricky because
+
+- group names in schema do always match those in html documentation (bigladder.com)
+- some object names are missing in html documentation (bigladder.com)
+
+Possible solution:
+
+- scrape the contents page of bigladder.com and find the link to the EPJObject
+
+2022-01-03
+==========
+
+TODO :
+
+- move the dbm code into eppy3000 - DONE
+- test from epjviewer - DONE
+- write unit tests for dbm
+- write doc strings for dbm
+- make dbm a single issue and pull request.
+- later
+    - Look at integration strategies into eppy3000 (using dbm in eppy3000)
+    - consider moving epjviewer into eppy3000
+
+other TODO :
+
+- write independant IDF converter
+- write YAML converter
+
+2022-01-02
+==========
+
+TODO :
+
+- home button - DONE
+- link to documentation -> may not be possible
+- more parent infor on field deails page - DONE
+
+
+eppy3000viewer
+python3 -m venv ~/venvs/eppy3000viewer
+source ~/venvs/eppy3000viewer/bin/activate
+
+
+pip install cookiecutter
+cookiecutter https://github.com/avelino/cookiecutter-bottle.git
