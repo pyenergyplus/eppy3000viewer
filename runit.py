@@ -12,7 +12,7 @@ import pprint
 
 @route('/')
 @route('/schemaobjects')
-@view('objlist_template')
+@view('templates/objlist_template')
 def schemaobjects(alist=None):
     # print(schemaindbm.get_aschema('Version'))
     # print(schemaindbm.get_schemaversion())
@@ -29,7 +29,7 @@ def schemaobjects(alist=None):
 
 
 @route('/aschemaobject/<schemakey>')
-@view('aschemaobject_template')
+@view('templates/aschemaobject_template')
 def aschemaobject(schemakey=None):
     fieldnames = list(schemaindbm.get_props(schemakey).keys())
     aschema = schemaindbm.get_aschema(schemakey)
@@ -42,7 +42,7 @@ def aschemaobject(schemakey=None):
     return thedict
 
 @route('/fielddetailsof/<schemaobject>/<fieldname>')
-@view('fieldname_template')
+@view('templates/fieldname_template')
 def fielddetails(schemaobject=None, fieldname=None):
     fdetails = schemaindbm.get_field(schemaobject, fieldname)
     title = {"epjobjectname":schemaobject, "fieldname":fieldname}
