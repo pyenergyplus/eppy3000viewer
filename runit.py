@@ -18,7 +18,10 @@ def schemaobjects(alist=None):
     ver = schemaindbm.get_schemaversion()
     # aschema = schemaindbm.get_aschema(b'Version')
     print(ver)
-    alist.remove(b'epJSON_schema_version')
+    try:
+        alist.remove(b'epJSON_schema_version')
+    except ValueError as e:
+        pass
     dct = dict(ver=ver, alist=alist, gdict=gdict)
     # return dict(alist=alist)
     return dict(dct=dct)
