@@ -50,4 +50,5 @@ Usage::
 
 For eppy3000viewer to work dbmfilename should be ``schema``
 
-:Issue: Works only on EnergyPlus version 9.5 and 9.6. It seems to fail on other E+ versions. This issue will be fixed
+Will work only for E+ version >= 9.5:w
+
