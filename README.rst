@@ -31,7 +31,7 @@ You will see::
 
 Go to a browser and load the URL <http://localhost:8081/> or click on this `link<http://localhost:8081/>`_
 
-Once you are on the web page, click on links and explore. I will be self explanatory
+Once you are on the web page, click on links and explore. It will be self explanatory
 
 :Question: Where is the information on the web page coming from?
 :Response: The data in the IDD file (or rather the ``Energy+.schema.epJSON``) is stored in a python native database called ``dbm``. The web page is reading that database
