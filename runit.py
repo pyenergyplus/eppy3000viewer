@@ -7,15 +7,11 @@
 from bottle import route, run, template, view
 import eppy3000
 from eppy3000.dbm_functions import schemaindbm
-# import schemaindbm
-import pprint
 
 @route('/')
 @route('/schemaobjects')
 @view('templates/objlist_template')
 def schemaobjects(alist=None):
-    # print(schemaindbm.get_aschema('Version'))
-    # print(schemaindbm.get_schemaversion())
     gdict = schemaindbm.get_groups()
     # =====
     alist = list(schemaindbm.get_schemakeys())
