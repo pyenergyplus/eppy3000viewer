@@ -36,4 +36,16 @@ Once you are on the web page, click on links and explore. It will be self explan
 :Question: Where is the information on the web page coming from?
 :Response: The data in the IDD file (or rather the ``Energy+.schema.epJSON``) is stored in a python native database called ``dbm``. The web page is reading that database
 :Question: Can I do this for any version of the IDD ?
-:Response: Yes. You can. We are yet to document this. Coming soon.
+:Response: Yes. You can. See below.
+
+Putting any IDD in the dbm
+--------------------------
+
+Run the script ``create_dmb.py``. From the script documentation:
+
+
+Usage::
+
+    python create_dbm.py epJSON_filename dbmfilename
+
+:Issue: Works only on EnergyPlus version 9.5 and 9.6. It seems to fail on other E+ versions. This issue will be fixed
