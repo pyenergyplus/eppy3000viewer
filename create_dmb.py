@@ -20,6 +20,4 @@ if __name__ == "__main__":
     sys.argv[1:]
     fname = sys.argv[1]
     dbmname = sys.argv[2]
-    json2dbm.create_schemadbm(fname, dbmname)
-    json2dbm.create_index(fname, f"{dbmname}_ref_index")
-    json2dbm.create_groupsindex(fname, f"{dbmname}_group_index")
+    json2dbm.createall(fname, dbmname)
